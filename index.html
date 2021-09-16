@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
-      <div class="container cabecalho">
-          <a href="index.html"><img src="assets/logo.png" alt="Clínica Médica" title="Clínica Médica Life"></a>
+
+    <header class="cabecalho">
+      <div class="container cabecalho-items">
+          <a href="index.html"><img src="src/assets/logo.png" alt="Clínica Médica" title="Clínica Médica Life"></a>
           <nav class="navegacao">
             <a href="#sobre">Sobre</a>
             <a href="#especialidade">Especialidades</a>
@@ -19,8 +20,8 @@
       </div>
     </header>
     <main>
-      <div>
-        <h1>clínica médica life aqui a gente cuida de você</h1>
+      <div class="titulo">
+        <h1>clínica médica life<br> aqui a gente cuida de você</h1>
       </div>
       <section id="sobre">
         <div class="container conteudo-descricao">
@@ -28,16 +29,21 @@
           <p>Nossa clínica está pronta para receber nossos pacientes através 
             de uma excelente estrutura, comodidade e com a segurança de que você precisa.</p>
         </div>
-        <div class="container conteudo-descricao">
-          <p>Aqui na nossa clínica você vai encontrar:</p>
-          <ul>
-            <li>Horário flexível. Atendemos de segunda à sabdo.</li>
-            <li>Estacionamento amplo com 600 vagas.</li>
-            <li>Sala de espera com TV e Wifi.</li>
-            <li>Agendamento pelo telefone ou WhatsApp.</li>
-            <li>Excelente localização.</li>
-            <li>Entrega de exames em sua residência.</li>
-          </ul>
+        <div class="container conteudo-descricao-beneficios">
+          <img src="src/assets/medico.jpg" alt="Médico" title="Médico Clínica Médica Life">
+          <div class="beneficios">
+            <h3>Aqui na nossa clínica você vai encontrar:</h3>
+            <div class="beneficios-lista">
+              <ul>
+                <li>Horário flexível. Atendemos de segunda à sábado.</li>
+                <li>Estacionamento amplo com 600 vagas.</li>
+                <li>Sala de espera com TV e Wifi.</li>
+                <li>Agendamento pelo telefone ou WhatsApp.</li>
+                <li>Excelente localização.</li>
+                <li>Entrega de exames em sua residência.</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
       <section id="especialidade">
@@ -47,12 +53,14 @@
             psicologia, fisioterapia e outros.
           </p>
         </div>
-        <div class="container conteudo-descricao-img">
-          <div><img src="assets/ortopedia.png" alt=""><a href="#">Ortopedia</a></div>
-          <div><img src="assets/pediatra.png" alt=""><a href="#"></a>Pediatria</div>
-          <div><img src="assets/geriatra.png" alt=""><a href="#"></a>Geriatria</div>
+        <div class="container cards">
+          <div class="cards-especialidade"><img src="src/assets/ortopedia1.png" alt=""><a href="#">Ortopedia</a></div>
+          <div class="cards-especialidade"><img src="src/assets/pediatra.png" alt=""><a href="#">Pediatria</a></div>
+          <div class="cards-especialidade"><img src="src/assets/geriatra.png" alt=""><a href="#">Geriatria</a></div>
         </div>
-        <a href="#">Ver horários</a>
+        <div class="container btn-horarios"></div>
+          <a href="#">Ver horários</a>
+        </div>
       </section>
       <section id="contato">
         <div class="container conteudo-descricao">
@@ -64,9 +72,9 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14692.471710812997!2d-43.3641911!3d-22.9826906!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1631751466813!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </section>
     </main>
-    <footer>
+    <footer class="rodape">
       <div class="container conteudo-descricao">
-        <img src="assets/logo.png" alt="">
+        <img src="src/assets/logo.png" alt="">
         <div>
           <p>Telefone e WhatsApp: (21) 99966-5555</p>
           <p>Endereço: Av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro</p>

@@ -1,0 +1,166 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url(assets/fonts/source-sans-pro.woff) format("woff"),
+         url(assets/fonts/source-sans-pro.woff2) format("woff2");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    color:#0000008c;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+span{
+    font-weight: bold;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(0, 195, 255);
+}
+
+.cabecalho-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-items img{
+    width: 55%;
+    margin-left: 5px;
+}
+
+.navegacao{
+    margin-bottom: 0.5rem;
+}
+
+.navegacao a{
+    display: inline-block;
+    color: #fff;
+    padding-right: 0.6em;
+}
+
+.navegacao a:hover{
+    color: rgb(0, 89, 255);;
+}
+
+.titulo{
+    background-image: url(src/assets/recepcao.png);
+    height: 100vh;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+.titulo h1{
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-left: 2em;
+    width: 50%;
+}
+
+.conteudo-descricao{
+    text-align: center;
+    width: 70%;
+    margin: 1.2em auto;
+}
+
+.conteudo-descricao h2, .conteudo-descricao p{
+    padding: 0.4em 0;
+}
+
+.conteudo-descricao-beneficios{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.conteudo-descricao-beneficios img{
+    width: 30%;
+    height: auto;
+}
+.beneficios{
+    margin-left: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.beneficios h3{
+    padding: 1.5em 0;
+}
+
+.beneficios-lista{
+    padding: 0.7em 0;
+    margin-left: 2em;
+}
+.beneficios-lista li{
+    line-height: 1.5em;
+}
+
+
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.cards-especialidade{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+
+    color:#0000008c;
+    text-align: center;
+}
+
+.cards-especialidade img{
+    width: 100%;
+}
+
+.cards-especialidade a{
+    color:#0000008c;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.btn-horarios{
+    display: flex;
+    align-items: center;
+}
+
+iframe{
+    width: 100%;
+    height: 60vh;
+}
+
+.rodape{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 195, 255);
+}
