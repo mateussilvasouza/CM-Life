@@ -1,0 +1,95 @@
+
+/*Media Queries*/
+/*Max-Width: 1024px*/
+@media (max-width:1024px){
+    .titulo{
+        max-height: 400px;
+    }
+}
+
+
+/*Max-Width: 768px*/
+@media (max-width:768px){
+    .titulo{
+        max-height: 300px;
+    }
+
+    .container.conteudo-descricao-beneficios img, .especialidade-img{
+        display: none;
+    }
+
+    .cards-especialidade{
+        width: 45%;
+    }
+
+    .horarios{
+        width: 100%;
+    }
+
+    .container-rodape img{
+        width: 25%;
+    }
+}
+
+
+/*Max-Width: 425px*/
+@media (max-width:425px){
+    
+    .cabecalho{
+        height: 115px;
+        margin-bottom: 100px;
+    }
+  
+    .cabecalho-items{
+        flex-direction: column;
+        justify-content: center;
+        align-self: start;
+    }
+
+    .cabecalho-items img{
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .navegacao{
+        width: 100%;
+        border-top: 1px solid #009fa5;
+        padding: 10px 0;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .titulo{
+        margin-top: 100px;
+        max-height: 200px;
+    }
+    .titulo h1{
+        font-size: 1.5em;
+    }
+
+    .conteudo-descricao,.conteudo-descricao-beneficios{
+        width: 85%;
+    }
+
+    .cards-especialidade{
+        width: 100%;
+    }
+
+    .section-nav{
+        margin-top: 110px;
+    }
+
+    .nav-especialidades{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .container-rodape img{
+        width: 40%;
+    }
+}
+
+/*Fim das Queries*?

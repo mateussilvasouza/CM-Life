@@ -1,0 +1,58 @@
+.section-nav{
+    margin-top: 50px;
+    padding: 20px 0 10px 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-nav h2{
+    padding: 40px 0 10px;
+}
+.nav-especialidades a{
+    color: #0000008c;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 2px 0;
+    margin: 10px;
+    border-bottom: 2px solid rgb(0, 195, 255);
+}
+
+.nav-especialidades a:hover{
+    color: #004b4c;
+}
+
+.especialidade{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.especialidade-img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.horarios{
+    width: 65%;
+    border-spacing: 0;
+}
+
+.horarios th, .horarios td{
+    padding: 10px;
+}
+
+.horarios thead tr{
+    color: #fff;
+    text-align: left;
+    font-weight: 600;
+    background-color: #00cad1;
+}
+
+.horarios tbody tr:nth-child(odd){
+    background-color: rgb(165, 164, 164);
+    border: 1px solid #f1f1f1;
+}
