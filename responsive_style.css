@@ -33,7 +33,7 @@
 
 
 /*Max-Width: 425px*/
-@media (max-width:425px){
+@media (max-width:512px){
     
     .cabecalho{
         height: 115px;
