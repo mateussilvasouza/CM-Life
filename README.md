@@ -4,8 +4,8 @@
 
 <p>Projeto criado com fins de aprendizado praticando, um website de uma clínica médica apresentando sua estrutura, especialidades, horários de atendimento, endereço e formas de contato.</p>
 
-<img src="src/assets/animation.gif" alt="animação da pagina" title="Pagina animada" width="100%">
-<img src="src/assets/responsive_animation.gif" alt="animação responsiva da pagina" title="Pagina responsiva animada" width="100%">
+<img src="src/assets/animation.gif" alt="animação da pagina" title="Pagina animada" width="50%" object-fit="cover">
+<img src="src/assets/responsive_animation.gif" alt="animação responsiva da pagina" title="Pagina responsiva animada" width="50%" object-fit="cover">
 <h2>Front-End</h2>
 <ul>
     <li>HTML5</li>
